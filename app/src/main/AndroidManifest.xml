@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Déclarez les permissions ici, en dehors de la balise <application> -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" android:targetSdkVersion="33" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Apprendezvous"
+        tools:targetApi="31">
+
+        <!-- Définir SplashLogo comme la première activité -->
+        <activity
+            android:name=".SplashLogo"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Autres activités -->
+        <activity
+            android:name=".Page2"
+            android:exported="true" />
+        <activity
+            android:name=".Page3"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".Inscrire_type"
+            android:exported="false" />
+        <activity
+            android:name=".Inscrire_patient"
+            android:exported="false" />
+        <activity
+            android:name=".Inscrire_doctor"
+            android:exported="false" />
+        <activity
+            android:name=".specialite"
+            android:exported="false" />
+        <activity
+            android:name=".PatientAppointmentsActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".DoctorProfile"
+            android:exported="false"/>
+        <activity
+            android:name=".ModifierDoctorProfile"
+            android:exported="false"/>
+        <activity
+            android:name=".DoctorAppointmentsActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".DoctorHome"
+            android:exported="false"/>
+        <activity
+            android:name=".AppointmentConfirmationActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ModifierProfil"
+            android:exported="false" />
+        <activity
+            android:name=".Profil"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".DoctorDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".DoctorsActivity" />
+
+    </application>
+</manifest>
+
+

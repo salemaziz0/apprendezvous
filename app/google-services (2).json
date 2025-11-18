@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215676353153",
+    "project_id": "apprendez-64a29",
+    "storage_bucket": "apprendez-64a29.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215676353153:android:25585ce4393af41ad8eb80",
+        "android_client_info": {
+          "package_name": "com.example.apprendezvous"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDppll8rUel8Dy72f2EtrdQ3gx-GBXmAq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

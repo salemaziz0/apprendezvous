@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Thème principal -->
+    <style name="Theme.Apprendezvous" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Style de texte -->
+    <style name="TextStylePrimary" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextStyleSecondary" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/colorOnSecondary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Styles de bouton -->
+    <style name="ButtonStylePrimary">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="ButtonStyleSecondary">
+        <item name="android:background">@color/colorSecondary</item>
+        <item name="android:textColor">@color/colorOnSecondary</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <!-- Styles pour les catégories médicales -->
+    <style name="StyleDental">
+        <item name="android:background">@color/dental_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleEye">
+        <item name="android:background">@color/eye_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleHeart">
+        <item name="android:background">@color/heart_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleLung">
+        <item name="android:background">@color/lung_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleEar">
+        <item name="android:background">@color/ear_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleOrtho">
+        <item name="android:background">@color/ortho_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleNeuro">
+        <item name="android:background">@color/neuro_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StylePediatric">
+        <item name="android:background">@color/pediatric_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleDermato">
+        <item name="android:background">@color/dermato_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
+
+
+
+
